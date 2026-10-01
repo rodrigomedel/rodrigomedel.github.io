@@ -1,5 +1,5 @@
 
-    #rodrigo-website{--rb-bg:light-dark(#fff,#161b20);--rb-text:light-dark(#21364a,#e0e8ef);--rb-muted:light-dark(#526575,#acb9c6);--rb-navy:light-dark(#122b45,#d3e3f1);--rb-blue:light-dark(#235fbd,#99bdeb);--rb-line:light-dark(#dce3e9,#34434f);--rb-button:light-dark(#122b45,#d1e0ed);--rb-button-text:light-dark(#fff,#122b45);color-scheme:light;background:var(--rb-bg);color:var(--rb-text);font:15px/1.75 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+    #rodrigo-website{--rb-bg:light-dark(#fff,#161b20);--rb-text:light-dark(#21364a,#e0e8ef);--rb-muted:light-dark(#526575,#acb9c6);--rb-navy:light-dark(#122b45,#d3e3f1);--rb-blue:light-dark(#235fbd,#99bdeb);--rb-line:light-dark(#dce3e9,#34434f);--rb-button:light-dark(#122b45,#d1e0ed);--rb-button-text:light-dark(#fff,#122b45);color-scheme:light;background:var(--rb-bg);color:var(--rb-text);font:16px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
     #rodrigo-website *{box-sizing:border-box}
     #rodrigo-website a{color:inherit;text-decoration:none;text-underline-offset:5px}
     #rodrigo-website a:hover{text-decoration:underline}
@@ -7,52 +7,52 @@
     #rodrigo-website .rb-container{width:100%;max-width:1140px;margin:auto;padding-left:42px;padding-right:42px}
     #rodrigo-website .rb-header{border-bottom:1px solid var(--rb-line)}
     #rodrigo-website .rb-header-inner{display:flex;align-items:center;gap:20px;padding-top:16px;padding-bottom:16px;flex-wrap:wrap}
-    #rodrigo-website .rb-brand{font-size:16px;font-weight:500;color:var(--rb-navy);white-space:nowrap}
-    #rodrigo-website .rb-nav{display:flex;flex-wrap:wrap;gap:0 17px;margin-left:auto;font-size:12px}
+    #rodrigo-website .rb-brand{font-size:14.4px;font-weight:500;color:var(--rb-navy);white-space:nowrap}
+    #rodrigo-website .rb-nav{display:flex;flex-wrap:wrap;gap:0 17px;margin-left:auto;font-size:14px}
     #rodrigo-website .rb-nav a{color:var(--rb-muted);padding:9px 0;border-bottom:1px solid transparent}
     #rodrigo-website .rb-nav a[aria-current="page"]{color:var(--rb-blue);border-bottom-color:var(--rb-blue)}
-    #rodrigo-website .rb-languages{display:flex;gap:8px;font-size:12px;padding-left:18px;border-left:1px solid var(--rb-line)}
+    #rodrigo-website .rb-languages{display:flex;gap:8px;font-size:14px;padding-left:18px;border-left:1px solid var(--rb-line)}
     #rodrigo-website .rb-languages button[aria-pressed="true"]{color:var(--rb-blue);font-weight:500}
-    #rodrigo-website .rb-hero{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:68px;padding-top:53px;padding-bottom:51px;align-items:start}
-    #rodrigo-website .rb-eyebrow{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--rb-blue);margin:0 0 16px}
+    #rodrigo-website .rb-hero{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:68px;padding-top:53px;padding-bottom:51px;align-items:start}
+    #rodrigo-website .rb-eyebrow{font-size:12px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--rb-blue);margin:0 0 16px}
     #rodrigo-website .rb-name{font:400 34px/1.2 Georgia,'Times New Roman',serif;letter-spacing:-.02em;color:var(--rb-navy);margin:0 0 18px}
     #rodrigo-website .rb-name span{color:var(--rb-blue)}
-    #rodrigo-website .rb-theme{font:400 14px/1.75 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--rb-muted);max-width:570px;margin:0 0 20px}
-    #rodrigo-website .rb-affiliation{font-size:12px;color:var(--rb-muted);margin-bottom:27px}
+    #rodrigo-website .rb-theme{font:400 16px/1.75 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--rb-muted);max-width:570px;margin:0 0 20px}
+    #rodrigo-website .rb-affiliation{font-size:14px;color:var(--rb-muted);margin-bottom:27px}
     #rodrigo-website .rb-affiliation strong{font-weight:500;color:var(--rb-navy)}
-    #rodrigo-website .rb-profile-label{font:500 11px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--rb-navy);margin:0 0 11px}
-    #rodrigo-website .rb-copy p{font-size:14px;color:var(--rb-muted);margin:0 0 16px;max-width:650px}
-    #rodrigo-website .rb-project-link{font-size:12px;text-decoration:underline;color:var(--rb-navy);text-underline-offset:5px}
-    #rodrigo-website .rb-actions{display:flex;align-items:center;flex-wrap:wrap;gap:15px 23px;margin-top:25px;font-size:12px}
+    #rodrigo-website .rb-profile-label{font:500 12.5px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--rb-navy);margin:0 0 11px}
+    #rodrigo-website .rb-copy p{font-size:16px;color:var(--rb-muted);margin:0 0 16px;max-width:650px}
+    #rodrigo-website .rb-project-link{font-size:14px;text-decoration:underline;color:var(--rb-navy);text-underline-offset:5px}
+    #rodrigo-website .rb-actions{display:flex;align-items:center;flex-wrap:wrap;gap:15px 23px;margin-top:25px;font-size:14px}
     #rodrigo-website .rb-primary{display:inline-block;background:var(--rb-button);color:var(--rb-button-text);padding:10px 15px;border-radius:2px}
     #rodrigo-website .rb-contact-link{text-decoration:underline;text-underline-offset:5px;color:var(--rb-navy)}
     #rodrigo-website .rb-portrait{margin:0}
-    #rodrigo-website .rb-photo{width:260px;height:325px;border-radius:2px;overflow:hidden}
+    #rodrigo-website .rb-photo{width:300px;height:375px;border-radius:2px;overflow:hidden}
     #rodrigo-website .rb-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 35%;display:block}
-    #rodrigo-website .rb-portrait figcaption{font-size:11px;color:var(--rb-muted);margin-top:10px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+    #rodrigo-website .rb-portrait figcaption{font-size:12px;color:var(--rb-muted);margin-top:10px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
     #rodrigo-website .rb-profile-links{margin-top:23px}
-    #rodrigo-website .rb-profile-links p{font-size:11px;color:var(--rb-blue);letter-spacing:.07em;text-transform:uppercase;font-weight:500;margin:0 0 9px}
-    #rodrigo-website .rb-profile-links div{display:flex;flex-wrap:wrap;gap:7px 18px;font-size:12px}
+    #rodrigo-website .rb-profile-links p{font-size:12px;color:var(--rb-blue);letter-spacing:.07em;text-transform:uppercase;font-weight:500;margin:0 0 9px}
+    #rodrigo-website .rb-profile-links div{display:flex;flex-wrap:wrap;gap:7px 18px;font-size:14px}
     #rodrigo-website .rb-profile-links a,#rodrigo-website .rb-profile-links button{text-decoration:underline;text-underline-offset:4px}
     #rodrigo-website .rb-background{display:grid;grid-template-columns:1fr 1fr;gap:68px;padding-top:37px;padding-bottom:43px;border-top:1px solid var(--rb-line)}
-    #rodrigo-website .rb-section-title{font:400 25px/1.35 Georgia,'Times New Roman',serif;color:var(--rb-navy);margin:0 0 15px}
-    #rodrigo-website .rb-background p{font-size:14px;color:var(--rb-muted);margin:0}
-    #rodrigo-website .rb-education-label{font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:var(--rb-blue);margin:0 0 12px}
-    #rodrigo-website .rb-education{display:grid;grid-template-columns:43px minmax(0,1fr);gap:12px 15px;font-size:12px}
+    #rodrigo-website .rb-section-title{font:400 clamp(2rem,3.4vw,2.8rem)/1.15 Georgia,'Times New Roman',serif;color:var(--rb-navy);margin:0 0 15px}
+    #rodrigo-website .rb-background p{font-size:16px;color:var(--rb-muted);margin:0}
+    #rodrigo-website .rb-education-label{font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:var(--rb-blue);margin:0 0 12px}
+    #rodrigo-website .rb-education{display:grid;grid-template-columns:43px minmax(0,1fr);gap:12px 15px;font-size:14px}
     #rodrigo-website .rb-education time{color:var(--rb-blue)}
-    #rodrigo-website .rb-education span{color:var(--rb-navy)}
-    #rodrigo-website .rb-education small{display:block;font-size:11px;color:var(--rb-muted)}
+    #rodrigo-website .rb-education span{color:var(--rb-navy);font:400 18.4px/1.4 Georgia,'Times New Roman',serif}
+    #rodrigo-website .rb-education small{display:block;font-size:14px;color:var(--rb-muted)}
     #rodrigo-website .rb-contact{background:light-dark(#122b45,#10263b);color:light-dark(#fff,#f3f7fb);padding:52px 0}
     #rodrigo-website .rb-contact-layout{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
     #rodrigo-website .rb-contact .rb-eyebrow{color:light-dark(#9dc9ff,#9dc9ff);margin-bottom:17px}
-    #rodrigo-website .rb-contact .rb-section-title{font-size:34px;line-height:1.2;color:inherit;margin:0 0 18px}
-    #rodrigo-website .rb-contact p:not(.rb-eyebrow){font-size:14px;color:light-dark(#d1dfed,#d1dfed);margin:0;max-width:390px}
-    #rodrigo-website .rb-contact-links{font-size:12px;overflow-wrap:anywhere}
+    #rodrigo-website .rb-contact .rb-section-title{font-size:clamp(2.2rem,3.8vw,3.2rem);line-height:1.2;color:inherit;margin:0 0 18px}
+    #rodrigo-website .rb-contact p:not(.rb-eyebrow){font-size:16px;color:light-dark(#d1dfed,#d1dfed);margin:0;max-width:390px}
+    #rodrigo-website .rb-contact-links{font-size:14px;overflow-wrap:anywhere}
     #rodrigo-website .rb-contact-links p{margin:17px 0 21px!important}
     #rodrigo-website .rb-contact-links a{text-decoration:underline;text-decoration-color:light-dark(#68819c,#68819c)}
-    #rodrigo-website .rb-contact-links .rb-email{font-size:15px}
+    #rodrigo-website .rb-contact-links .rb-email{font-size:clamp(1rem,1.65vw,1.25rem)}
     #rodrigo-website .rb-contact-links .rb-external-links{display:flex;gap:24px;margin-top:20px}
-    #rodrigo-website .rb-footer{border-top:1px solid var(--rb-line);padding-top:15px;padding-bottom:15px;color:var(--rb-muted);font-size:11px}
+    #rodrigo-website .rb-footer{border-top:1px solid var(--rb-line);padding-top:15px;padding-bottom:15px;color:var(--rb-muted);font-size:12px}
     #rodrigo-website [hidden]{display:none!important}
     #rodrigo-website .rb-other{padding-top:48px;padding-bottom:60px;min-height:630px;max-width:820px}
     #rodrigo-website .rb-other h1{font:400 28px/1.35 Georgia,'Times New Roman',serif;color:var(--rb-navy);margin:0 0 25px}
@@ -62,8 +62,10 @@
     #rodrigo-website .rm-meta{font-size:12px;color:var(--rb-muted)}
     #rodrigo-website .rm-inline-links{display:flex;gap:20px;flex-wrap:wrap}
     #rodrigo-website .rb-other a{color:var(--rb-blue);text-decoration:underline}
-    @media(max-width:850px){#rodrigo-website .rb-container{padding-left:30px;padding-right:30px}#rodrigo-website .rb-nav{order:3;flex-basis:100%;margin-left:0}#rodrigo-website .rb-languages{margin-left:auto}#rodrigo-website .rb-header-inner{gap:5px 20px}#rodrigo-website .rb-hero{grid-template-columns:minmax(0,1fr) 220px;gap:35px}#rodrigo-website .rb-photo{width:220px;height:275px}#rodrigo-website .rb-name{font-size:31px}#rodrigo-website .rb-theme{font-size:14px}#rodrigo-website .rb-background{gap:35px}}
-    @media(max-width:600px){#rodrigo-website .rb-container{padding-left:22px;padding-right:22px}#rodrigo-website .rb-hero{grid-template-columns:1fr;padding-top:34px;gap:31px;padding-bottom:34px}#rodrigo-website .rb-name{font-size:29px}#rodrigo-website .rb-theme{font-size:14px}#rodrigo-website .rb-affiliation{margin-bottom:22px}#rodrigo-website .rb-aside{display:grid;grid-template-columns:125px minmax(0,1fr);gap:20px}#rodrigo-website .rb-photo{width:125px;height:156px}#rodrigo-website .rb-profile-links{margin-top:0}#rodrigo-website .rb-profile-links div{display:grid;gap:6px}#rodrigo-website .rb-portrait figcaption{font-size:11px}#rodrigo-website .rb-background{grid-template-columns:1fr;gap:28px;padding-top:28px;padding-bottom:30px}#rodrigo-website .rb-nav{gap:0 17px}#rodrigo-website .rb-contact{padding-top:25px;padding-bottom:25px}}
-@media(max-width:600px){#rodrigo-website .rb-contact-layout{grid-template-columns:1fr;gap:30px}#rodrigo-website .rb-contact .rb-section-title{font-size:29px}#rodrigo-website .rb-contact{padding:37px 0}#rodrigo-website .rb-contact-links .rb-email{font-size:14px}}
+    @media(max-width:850px){#rodrigo-website .rb-container{padding-left:30px;padding-right:30px}#rodrigo-website .rb-nav{order:3;flex-basis:100%;margin-left:0}#rodrigo-website .rb-languages{margin-left:auto}#rodrigo-website .rb-header-inner{gap:5px 20px}#rodrigo-website .rb-hero{grid-template-columns:minmax(0,1fr) 250px;gap:35px}#rodrigo-website .rb-photo{width:250px;height:312.5px}#rodrigo-website .rb-name{font-size:31px}#rodrigo-website .rb-theme{font-size:16px}#rodrigo-website .rb-background{gap:35px}}
+    @media(max-width:600px){#rodrigo-website .rb-container{padding-left:22px;padding-right:22px}#rodrigo-website .rb-hero{grid-template-columns:1fr;padding-top:34px;gap:31px;padding-bottom:34px}#rodrigo-website .rb-name{font-size:29px}#rodrigo-website .rb-theme{font-size:16px}#rodrigo-website .rb-affiliation{margin-bottom:22px}#rodrigo-website .rb-aside{display:grid;grid-template-columns:150px minmax(0,1fr);gap:20px}#rodrigo-website .rb-photo{width:150px;height:187.5px}#rodrigo-website .rb-profile-links{margin-top:0}#rodrigo-website .rb-profile-links div{display:grid;gap:6px}#rodrigo-website .rb-portrait figcaption{font-size:12px}#rodrigo-website .rb-background{grid-template-columns:1fr;gap:28px;padding-top:28px;padding-bottom:30px}#rodrigo-website .rb-nav{gap:0 17px}#rodrigo-website .rb-contact{padding-top:25px;padding-bottom:25px}}
+@media(max-width:600px){#rodrigo-website .rb-contact-layout{grid-template-columns:1fr;gap:30px}#rodrigo-website .rb-contact .rb-section-title{font-size:32px}#rodrigo-website .rb-contact{padding:37px 0}#rodrigo-website .rb-contact-links .rb-email{font-size:16px}}
   
 #rodrigo-website .rb-primary:hover{color:var(--rb-button-text)}
+
+@media(max-width:400px){#rodrigo-website .rb-aside{grid-template-columns:140px minmax(0,1fr)}#rodrigo-website .rb-photo{width:140px;height:175px}}
