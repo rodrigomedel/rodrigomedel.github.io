@@ -80,6 +80,6 @@
 #rodrigo-website .rb-crispol-link{color:var(--rb-navy);text-decoration:underline;text-decoration-color:var(--rb-blue);text-decoration-thickness:1px}
 #rodrigo-website .rb-copy p{margin-bottom:18px}
 #rodrigo-website #contacto{scroll-margin-top:20px}
-@media(max-width:1100px){#rodrigo-website .rb-nav{order:3;flex-basis:100%;margin-left:0}#rodrigo-website .rb-languages{margin-left:auto}#rodrigo-website .rb-header-inner{gap:5px 20px}}
+@media(max-width:1280px){#rodrigo-website .rb-nav{order:3;flex-basis:100%;margin-left:0}#rodrigo-website .rb-languages{margin-left:auto}#rodrigo-website .rb-header-inner{gap:5px 20px}}
 @media(max-width:600px){#rodrigo-website .rb-hero{row-gap:16px}#rodrigo-website .rb-aside{margin-top:12px}#rodrigo-website .rb-background .rb-eyebrow{margin-bottom:12px}}
 @media(pointer:coarse){#rodrigo-website .rb-nav a{min-height:44px;display:inline-flex;align-items:center}#rodrigo-website .rb-languages button{min-width:44px;min-height:44px}#rodrigo-website .rb-languages{gap:0;align-items:center}#rodrigo-website .rb-profile-links a{min-height:44px;display:inline-flex;align-items:center}}

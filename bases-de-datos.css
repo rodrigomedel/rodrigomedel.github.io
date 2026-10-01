@@ -1,0 +1,51 @@
+#rodrigo-datasets-proposal{--rd-paper:light-dark(#fff,#161b20);--rd-ink:light-dark(#122b45,#e1edf7);--rd-copy:light-dark(#526575,#afc0ce);--rd-blue:light-dark(#235fbd,#a2c5f7);--rd-rule:light-dark(#dce3e9,#34434f);--rd-wash:light-dark(#f4f7fb,#1b2732);--rd-hover:light-dark(#edf3fa,#223446);--rd-button:light-dark(#122b45,#d1e0ed);--rd-button-ink:light-dark(#fff,#122b45);color-scheme:light;background:var(--rd-paper);color:var(--rd-ink);font:400 16px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+    #rodrigo-datasets-proposal *{box-sizing:border-box}
+    #rodrigo-datasets-proposal a{color:inherit;text-decoration:none;text-underline-offset:5px}
+    #rodrigo-datasets-proposal a:hover{text-decoration:underline}
+    #rodrigo-datasets-proposal .rd-container{max-width:1140px;width:100%;margin:auto;padding-left:42px;padding-right:42px}
+    #rodrigo-datasets-proposal .rd-header{border-bottom:1px solid var(--rd-rule)}
+    #rodrigo-datasets-proposal .rd-header-inner{display:flex;align-items:center;flex-wrap:wrap;gap:7px 20px;padding-top:16px;padding-bottom:12px}
+    #rodrigo-datasets-proposal .rd-brand{font-size:14.4px;font-weight:500;white-space:nowrap}
+    #rodrigo-datasets-proposal .rd-languages{display:flex;align-items:center;gap:8px;margin-left:auto;margin-right:60px;border-left:1px solid var(--rd-rule);padding-left:18px;font-size:14px}
+    #rodrigo-datasets-proposal .rd-languages button{font:inherit;border:0;background:transparent;color:var(--rd-copy);padding:5px 0}
+    #rodrigo-datasets-proposal .rd-languages button[aria-pressed="true"]{color:var(--rd-blue);font-weight:500}
+    #rodrigo-datasets-proposal .rd-nav{display:flex;flex-wrap:wrap;flex-basis:100%;gap:0 18px;font-size:14px}
+    #rodrigo-datasets-proposal .rd-nav a{padding:9px 0;color:var(--rd-copy);border-bottom:1px solid transparent}
+    #rodrigo-datasets-proposal .rd-nav a[aria-current="page"]{color:var(--rd-blue);border-bottom-color:var(--rd-blue)}
+    #rodrigo-datasets-proposal .rd-main{padding-top:46px;padding-bottom:45px}
+    #rodrigo-datasets-proposal .rd-intro{display:grid;grid-template-columns:1fr 1.4fr;align-items:end;gap:55px;margin-bottom:32px}
+    #rodrigo-datasets-proposal .rd-eyebrow{margin:0 0 11px;font-size:12px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--rd-blue)}
+    #rodrigo-datasets-proposal h1{font:400 36px/1.18 Georgia,'Times New Roman',serif;letter-spacing:-.015em;margin:0}
+    #rodrigo-datasets-proposal .rd-lead{margin:0;color:var(--rd-copy);max-width:530px;font-size:16px;line-height:1.7}
+    #rodrigo-datasets-proposal .rd-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+    #rodrigo-datasets-proposal .rd-dataset{display:flex;flex-direction:column;border:1px solid var(--rd-rule);border-radius:3px;background:var(--rd-paper);overflow:hidden;transition:border-color .15s ease}
+    #rodrigo-datasets-proposal .rd-dataset:hover{border-color:var(--rd-blue)}
+    #rodrigo-datasets-proposal .rd-card-top{display:flex;gap:14px;align-items:center;padding:19px 24px;background:var(--rd-wash);border-bottom:1px solid var(--rd-rule)}
+    #rodrigo-datasets-proposal .rd-icon{display:flex;align-items:center;justify-content:center;width:28px;flex-shrink:0;color:var(--rd-blue)}
+    #rodrigo-datasets-proposal .rd-icon svg{width:24px;height:24px;stroke-width:1.5}
+    #rodrigo-datasets-proposal .rd-domain{font-size:12px;letter-spacing:.07em;text-transform:uppercase;font-weight:500;color:var(--rd-ink)}
+    #rodrigo-datasets-proposal .rd-scope{font-size:13px;color:var(--rd-copy);margin-top:2px}
+    #rodrigo-datasets-proposal .rd-card-body{display:flex;flex-direction:column;flex:1;padding:23px 24px 22px}
+    #rodrigo-datasets-proposal h2{font:400 25px/1.22 Georgia,'Times New Roman',serif;letter-spacing:-.01em;margin:0 0 14px}
+    #rodrigo-datasets-proposal .rd-description{font-size:16px;line-height:1.65;color:var(--rd-copy);margin:0 0 17px}
+    #rodrigo-datasets-proposal .rd-details{display:flex;gap:6px 15px;flex-wrap:wrap;font-size:13px;color:var(--rd-copy);margin:0 0 19px}
+    #rodrigo-datasets-proposal .rd-details span{display:inline-flex;gap:5px;align-items:baseline}
+    #rodrigo-datasets-proposal .rd-details strong{color:var(--rd-ink);font-weight:500}
+    #rodrigo-datasets-proposal .rd-card-bottom{margin-top:auto;padding-top:16px;border-top:1px solid var(--rd-rule)}
+    #rodrigo-datasets-proposal .rd-role{font-size:12px;color:var(--rd-copy);margin:0 0 12px}
+    #rodrigo-datasets-proposal .rd-role span:last-child{color:var(--rd-ink)}
+    #rodrigo-datasets-proposal .rd-actions{display:flex;align-items:center;flex-wrap:wrap;gap:10px 20px;font-size:14px}
+    #rodrigo-datasets-proposal .rd-primary{display:inline-flex;align-items:center;gap:9px;padding:9px 12px;border-radius:2px;background:var(--rd-button);color:var(--rd-button-ink);font-weight:500}
+    #rodrigo-datasets-proposal .rd-primary svg{width:16px;height:16px}
+    #rodrigo-datasets-proposal .rd-secondary{text-decoration:underline;color:var(--rd-ink)}
+    #rodrigo-datasets-proposal .rd-footer{display:flex;flex-wrap:wrap;align-items:center;gap:10px 22px;border-top:1px solid var(--rd-rule);padding-top:18px;padding-bottom:18px;font-size:12px;color:var(--rd-copy)}
+    #rodrigo-datasets-proposal .rd-footer a{text-decoration:underline}
+    #rodrigo-datasets-proposal .rd-footer span{margin-right:auto}
+    @media(max-width:760px){#rodrigo-datasets-proposal .rd-container{padding-left:30px;padding-right:30px}#rodrigo-datasets-proposal .rd-intro{grid-template-columns:1fr;gap:17px}#rodrigo-datasets-proposal .rd-grid{gap:18px}#rodrigo-datasets-proposal .rd-card-top{padding:17px 18px}#rodrigo-datasets-proposal .rd-card-body{padding:20px 18px}#rodrigo-datasets-proposal h2{font-size:23px}}
+    @media(max-width:620px){#rodrigo-datasets-proposal .rd-container{padding-left:22px;padding-right:22px}#rodrigo-datasets-proposal .rd-grid{grid-template-columns:1fr}#rodrigo-datasets-proposal .rd-main{padding-top:33px;padding-bottom:32px}#rodrigo-datasets-proposal h1{font-size:31px}#rodrigo-datasets-proposal .rd-nav{gap:0 16px}#rodrigo-datasets-proposal .rd-header-inner{gap:5px 15px}#rodrigo-datasets-proposal .rd-languages{margin-right:0}#rodrigo-datasets-proposal .rd-brand{font-size:14px}}
+    @media(pointer:coarse){#rodrigo-datasets-proposal .rd-nav a{min-height:44px;display:inline-flex;align-items:center}#rodrigo-datasets-proposal .rd-languages button{min-width:44px;min-height:44px}#rodrigo-datasets-proposal .rd-languages{gap:0;padding-left:6px}#rodrigo-datasets-proposal .rd-actions a{min-height:44px;display:inline-flex;align-items:center}}
+    @media(prefers-reduced-motion:reduce){#rodrigo-datasets-proposal .rd-dataset{transition:none}}
+
+body[data-title-es="Bases de datos"] .site-header .container{width:100%;max-width:1140px;padding-left:42px;padding-right:42px}
+@media(max-width:760px){body[data-title-es="Bases de datos"] .site-header .container{padding-left:30px;padding-right:30px}}
+@media(max-width:620px){body[data-title-es="Bases de datos"] .site-header .container{padding-left:22px;padding-right:22px}}
