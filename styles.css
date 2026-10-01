@@ -20,5 +20,6 @@
 .biography-text{padding-top:20px}
 @media(max-width:760px){.hero h1{font-size:clamp(1.6rem,5.2vw,1.85rem)}.biography-text{padding-top:14px}}
 
-/* Both edited books retain the established book-page heading format. */
-body[data-title-es="Libros"] .page-heading h2{font:clamp(2.5rem,5vw,4rem)/1.1 var(--serif);letter-spacing:-.035em;color:var(--navy);margin-bottom:20px}
+/* Restrained, consistent titles for both edited books. */
+body[data-title-es="Libros"] .page-heading h1,
+body[data-title-es="Libros"] .page-heading h2{font:400 clamp(1.6875rem,2.6vw,2rem)/1.25 var(--serif);letter-spacing:-.015em;color:var(--navy);margin-bottom:16px}
