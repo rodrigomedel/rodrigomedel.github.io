@@ -69,3 +69,5 @@
 #rodrigo-website .rb-primary:hover{color:var(--rb-button-text)}
 
 @media(max-width:400px){#rodrigo-website .rb-aside{grid-template-columns:140px minmax(0,1fr)}#rodrigo-website .rb-photo{width:140px;height:175px}}
+
+@media(max-width:1000px){#rodrigo-website .rb-nav{order:3;flex-basis:100%;margin-left:0}#rodrigo-website .rb-languages{margin-left:auto}#rodrigo-website .rb-header-inner{gap:5px 20px}}
