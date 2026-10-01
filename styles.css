@@ -13,3 +13,9 @@
 @media(max-width:420px){.site-header nav{gap:1px 14px}.academic-row{grid-template-columns:1fr;gap:10px}.media-row>.article-link{grid-column:1}.academic-row .row-period{font-size:.75rem}.media-row{gap:8px}.book-cover{max-width:260px}}
 
 @media(max-width:900px){.header-inner{flex-wrap:wrap;gap:0;padding-block:12px}.brand{flex:1}.site-header nav{order:2;flex-basis:100%;flex-wrap:wrap;gap:1px 18px;justify-content:flex-start;margin-top:4px}.language-switch{order:1}.brand-name{display:inline}}
+
+/* Smaller name and a quiet transition into the academic profile. */
+.hero h1{font-size:clamp(1.75rem,2.4vw,2.125rem);line-height:1.2;letter-spacing:-.015em;font-weight:400;margin-bottom:20px}
+.biography-heading{font:600 .78rem/1.5 var(--sans);letter-spacing:.07em;text-transform:uppercase;color:var(--navy);margin:0 0 18px}
+.biography-text{padding-top:20px}
+@media(max-width:760px){.hero h1{font-size:clamp(1.6rem,5.2vw,1.85rem)}.biography-text{padding-top:14px}}
