@@ -30,6 +30,10 @@ body[data-title-es="Libros"] .page-heading h2{font:400 clamp(1.6875rem,2.6vw,2re
 #docencia .section-heading h1{font:400 clamp(1.75rem,2.6vw,2rem)/1.25 var(--serif);letter-spacing:-.015em;color:var(--navy)}
 @media(max-width:760px){#docencia.teaching-section{padding-block:38px 44px}#docencia .section-heading{margin-bottom:24px}}
 
-/* Match the CV and Media headings to the Publications title. */
+/* Match these page titles to Datasets on desktop and mobile. */
+body[data-title-es="Publicaciones"] .page-heading h1,
 body[data-title-es="Curriculum vitae"] .page-heading h1,
-body[data-title-es="Medios y debate público"] .page-heading h1{font-size:clamp(2.125rem,4vw,3.125rem)}
+body[data-title-es="Medios y debate público"] .page-heading h1{font-size:36px}
+@media(max-width:620px){body[data-title-es="Publicaciones"] .page-heading h1,
+body[data-title-es="Curriculum vitae"] .page-heading h1,
+body[data-title-es="Medios y debate público"] .page-heading h1{font-size:31px}}
