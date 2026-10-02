@@ -23,3 +23,9 @@
 /* Restrained, consistent titles for both edited books. */
 body[data-title-es="Libros"] .page-heading h1,
 body[data-title-es="Libros"] .page-heading h2{font:400 clamp(1.6875rem,2.6vw,2rem)/1.25 var(--serif);letter-spacing:-.015em;color:var(--navy);margin-bottom:16px}
+
+/* Compact teaching header after removing the introductory copy. */
+#docencia.teaching-section{padding-block:52px 60px}
+#docencia .section-heading{display:block;margin-bottom:28px}
+#docencia .section-heading h1{font:400 clamp(1.75rem,2.6vw,2rem)/1.25 var(--serif);letter-spacing:-.015em;color:var(--navy)}
+@media(max-width:760px){#docencia.teaching-section{padding-block:38px 44px}#docencia .section-heading{margin-bottom:24px}}
