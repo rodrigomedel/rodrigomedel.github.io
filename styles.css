@@ -31,10 +31,12 @@ body[data-title-es="Libros"] .page-heading h2{font:400 clamp(1.6875rem,2.6vw,2re
 @media(max-width:760px){#docencia.teaching-section{padding-block:38px 44px}#docencia .section-heading{margin-bottom:24px}}
 
 /* Match these page titles to Datasets on desktop and mobile. */
+#research-title,
 body[data-title-es="Publicaciones"] .page-heading h1,
 body[data-title-es="Curriculum vitae"] .page-heading h1,
 body[data-title-es="Medios y debate público"] .page-heading h1{font-size:36px}
-@media(max-width:620px){body[data-title-es="Publicaciones"] .page-heading h1,
+@media(max-width:620px){#research-title,
+body[data-title-es="Publicaciones"] .page-heading h1,
 body[data-title-es="Curriculum vitae"] .page-heading h1,
 body[data-title-es="Medios y debate público"] .page-heading h1{font-size:31px}}
 
